@@ -1,25 +1,24 @@
-# Requirements
-
-- User should be able to create a post
-
-  - [The post/tweet cannot be more than 250 chars]
-  - [Every post/tweet will be having support for image upload]
-
-- Any post should be visible to all those users who follows the author
-- Anyone who follows you can comment on a post/tweet
-- Anyone who follows you can like on a post/tweet
-- We can comment on a comment
-- We can like any comment also
-- Retweeting
-
-- User profile:
-
-  - Name
-  - Follower count
-  - Bio
-  - Last 10 tweets from the user
-
-- Pagination on tweets
-- User auth
-
-- Every tweet might be having a hashtag
+Requirements
+Post Creation
+Users should be able to create a post/tweet.
+The post/tweet cannot exceed 250 characters.
+Posts/tweets must support image uploads.
+Post Visibility and Interaction
+Posts/tweets should be visible to all users who follow the author.
+Users who follow the author can:
+Comment on posts/tweets.
+Like posts/tweets.
+Users should be able to:
+Comment on comments.
+Like comments.
+Retweeting of posts/tweets should be supported.
+User Profile
+The user profile should display:
+Name
+Follower count
+Bio
+Last 10 tweets from the user
+Additional Features
+Implement pagination for tweets.
+User authentication is required.
+Each tweet may include hashtags.
